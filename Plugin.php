@@ -12,7 +12,7 @@ class Plugin extends PluginBase
         return [
           'name' => 'JobForms',
           'description' => 'Provides end-to-end job listing and application submission capabilities',
-          'author' => 'robertchumley',
+          'author' => 'RobertChumley',
             'icon' => 'icon-bar-chart-o'
         ];
     }
