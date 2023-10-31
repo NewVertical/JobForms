@@ -1,0 +1,42 @@
+fields:
+    id:
+        label: ID
+        span: auto
+        disabled: 1
+        type: text
+        hidden: 1
+    former_employer_name:
+        label: 'newvertical.jobforms::lang.applications.former_employer_name'
+        span: left
+        type: text
+    former_employer_location:
+        label: 'newvertical.jobforms::lang.applications.former_employer_location'
+        span: right
+        type: text
+    salary:
+        label: 'newvertical.jobforms::lang.applications.salary'
+        span: left
+        type: text
+    position:
+        label: 'newvertical.jobforms::lang.applications.position'
+        span: right
+        type: text
+    reason_for_leaving:
+        label: 'newvertical.jobforms::lang.applications.reason_for_leaving'
+        size: 'large'
+        span: auto
+        type: textarea
+    time_employed_start:
+        label: 'newvertical.jobforms::lang.applications.time_employed_start'
+        span: left
+        type: text
+    time_employed_end:
+        label: 'newvertical.jobforms::lang.applications.time_employed_end'
+        span: right
+        type: text
+    application_id:
+        label: application_id
+        span: auto
+        disabled: 1
+        hidden: 1
+        type: text

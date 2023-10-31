@@ -1,0 +1,364 @@
+tabs:
+    fields:
+        position:
+            label: 'Position'
+            tab: 'Demographics'
+            span: full
+            readOnly: 1
+            disabled: 1
+            type: text
+        personal_information:
+            label: 'newvertical.jobforms::lang.applications.personal_information'
+            tab: 'Demographics'
+            span: full
+            readOnly: 1
+            type: section
+        first_name:
+            label: 'newvertical.jobforms::lang.applications.first_name'
+            tab: 'Demographics'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        last_name:
+            label: 'newvertical.jobforms::lang.applications.last_name'
+            tab: 'Demographics'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        ruler1:
+            tab: 'Demographics'
+            span: full
+            readOnly: 1
+            type: ruler
+        street_address_1:
+            label: 'newvertical.jobforms::lang.applications.street_address_1'
+            tab: 'Demographics'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        street_address_2:
+            label: 'newvertical.jobforms::lang.applications.street_address_2'
+            tab: 'Demographics'
+            span: auto
+            readOnly: 1
+            type: text
+        city:
+            label: 'newvertical.jobforms::lang.applications.city'
+            tab: 'Demographics'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        state:
+            label: 'newvertical.jobforms::lang.applications.state'
+            tab: 'Demographics'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        zip_code:
+            label: 'newvertical.jobforms::lang.applications.zip_code'
+            tab: 'Demographics'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        ruler2:
+            tab: 'Demographics'
+            span: full
+            readOnly: 1
+            type: ruler
+        phone_number:
+            label: 'newvertical.jobforms::lang.applications.phone_number'
+            tab: 'Demographics'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        phone_number_2:
+            label: 'newvertical.jobforms::lang.applications.phone_number_2'
+            tab: 'Demographics'
+            span: auto
+            readOnly: 1
+            hidden: 0
+            type: text
+        email:
+            label: 'newvertical.jobforms::lang.applications.email'
+            tab: 'Demographics'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        employment_desired:
+            label: 'newvertical.jobforms::lang.applications.employment_desired'
+            tab: 'Employment Desired'
+            span: full
+            readOnly: 1
+            type: section
+        start_date:
+            label: 'newvertical.jobforms::lang.applications.start_date'
+            tab: 'Employment Desired'
+            mode: date
+            span: auto
+            disabled: 1
+            readOnly: 1
+            required: 1
+            type: datepicker
+        desired_salary:
+            label: 'newvertical.jobforms::lang.applications.desired_salary'
+            tab: 'Employment Desired'
+            span: auto
+            readOnly: 1
+            required: 0
+            type: text
+        currently_employed:
+            label: 'newvertical.jobforms::lang.applications.currently_employed'
+            tab: 'Employment Desired'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        contact_employer:
+            label: 'newvertical.jobforms::lang.applications.contact_employer'
+            tab: 'Employment Desired'
+            span: auto
+            readOnly: 1
+            type: text
+        employer_name:
+            label: 'newvertical.jobforms::lang.applications.employer_name'
+            tab: 'Employment Desired'
+            span: auto
+            readOnly: 1
+            type: text
+        employer_number:
+            label: 'newvertical.jobforms::lang.applications.employer_number'
+            tab: 'Employment Desired'
+            span: auto
+            readOnly: 1
+            type: text
+        employer_email:
+            label: 'newvertical.jobforms::lang.applications.employer_email'
+            tab: 'Employment Desired'
+            span: full
+            readOnly: 1
+            type: text
+        previously_applied:
+            label: 'newvertical.jobforms::lang.applications.previously_applied'
+            tab: 'Employment Desired'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        applied_when:
+            label: 'newvertical.jobforms::lang.applications.applied_when'
+            tab: 'Employment Desired'
+            span: auto
+            readOnly: 1
+            type: text
+        education_history:
+            label: 'newvertical.jobforms::lang.applications.education_history'
+            tab: 'Education History'
+            span: full
+            readOnly: 1
+            type: section
+        high_school_name:
+            label: 'newvertical.jobforms::lang.applications.high_school_name'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        high_school_address:
+            label: 'newvertical.jobforms::lang.applications.high_school_address'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        high_school_city:
+            label: 'newvertical.jobforms::lang.applications.high_school_city'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        high_school_state:
+            label: 'newvertical.jobforms::lang.applications.high_school_state'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        high_school_zip:
+            label: 'newvertical.jobforms::lang.applications.high_school_zip'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        ruler3:
+            span: full
+            tab: 'Education History'
+            readOnly: 1
+            type: ruler
+        high_school_years_attended:
+            label: 'newvertical.jobforms::lang.applications.high_school_years_attended'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        graduated_high_school:
+            label: 'newvertical.jobforms::lang.applications.graduated_high_school'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        ruler4:
+            span: full
+            tab: 'Education History'
+            readOnly: 1
+            type: ruler
+        attended_college:
+            label: 'newvertical.jobforms::lang.applications.attended_college'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        college_name:
+            label: 'newvertical.jobforms::lang.applications.college_name'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            type: text
+        college_major:
+            label: 'newvertical.jobforms::lang.applications.college_major'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            type: text
+        degree_earned:
+            label: 'newvertical.jobforms::lang.applications.degree_earned'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            type: text
+        college_address:
+            label: 'newvertical.jobforms::lang.applications.college_address'
+            tab: 'Education History'
+            span: full
+            readOnly: 1
+            type: text
+        college_city:
+            label: 'newvertical.jobforms::lang.applications.college_city'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            type: text
+        college_state:
+            label: 'newvertical.jobforms::lang.applications.college_state'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            type: text
+        college_zip:
+            label: 'newvertical.jobforms::lang.applications.college_zip'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            type: text
+        ruler5:
+            tab: 'Education History'
+            span: full
+            readOnly: 1
+            type: ruler
+        college_years_attended:
+            label: 'newvertical.jobforms::lang.applications.college_years_attended'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            type: text
+        graduated_college:
+            label: 'newvertical.jobforms::lang.applications.graduated_college'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            type: text
+        ruler6:
+            tab: 'Education History'
+            span: full
+            readOnly: 1
+            type: ruler
+        attended_trade_school:
+            label: 'newvertical.jobforms::lang.applications.attended_trade_school'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            required: 1
+            type: text
+        trade_school_name:
+            label: 'newvertical.jobforms::lang.applications.trade_school_name'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            type: text
+        trade_school_subjects:
+            label: 'newvertical.jobforms::lang.applications.trade_school_subjects'
+            tab: 'Education History'
+            size: small
+            span: full
+            readOnly: 1
+            type: textarea
+        trade_school_address:
+            label: 'newvertical.jobforms::lang.applications.trade_school_address'
+            tab: 'Education History'
+            span: full
+            readOnly: 1
+            type: text
+        trade_school_city:
+            label: 'newvertical.jobforms::lang.applications.trade_school_city'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            type: text
+        trade_school_state:
+            label: 'newvertical.jobforms::lang.applications.trade_school_state'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            type: text
+        trade_school_zip:
+            label: 'newvertical.jobforms::lang.applications.trade_school_zip'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            type: text
+        ruler7:
+            tab: 'Education History'
+            span: full
+            type: ruler
+        trade_school_years_attended:
+            label: 'newvertical.jobforms::lang.applications.trade_school_years_attended'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            type: text
+        graduated_trade_school:
+            label: 'newvertical.jobforms::lang.applications.graduated_trade_school'
+            tab: 'Education History'
+            span: auto
+            readOnly: 1
+            type: text
+        former_employers:
+            label: 'Employment History'
+            tab: 'Employment History'
+            type: relation
+        references:
+            label: 'References'
+            tab: 'References'
+            type: relation

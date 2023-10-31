@@ -1,0 +1,15 @@
+columns:
+    former_employer_name:
+        label: 'newvertical.jobforms::lang.applications.former_employer_name'
+        searchable: true
+        sortable: true
+    former_employer_location:
+        label: 'newvertical.jobforms::lang.applications.former_employer_location'
+        searchable: true
+        sortable: true
+    salary:
+        label: 'newvertical.jobforms::lang.applications.salary'
+    position:
+        label: 'newvertical.jobforms::lang.applications.position'
+        searchable: true
+        sortable: true
