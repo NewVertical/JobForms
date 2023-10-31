@@ -1,4 +1,4 @@
-<?php namespace nvt\Jobforms;
+<?php namespace RobertChumley\Jobforms;
 
 use System\Classes\PluginBase;
 
@@ -37,8 +37,8 @@ class Plugin extends PluginBase
     public function registerComponents():array
     {
         return [
-            \nvt\JobForms\Components\JobListingsComponent::class => 'JobListingsComponent',
-            \nvt\JobForms\Components\FormComponent::class => 'FormComponent'
+            \RobertChumley\JobForms\Components\JobListingsComponent::class => 'JobListingsComponent',
+            \RobertChumley\JobForms\Components\FormComponent::class => 'FormComponent'
             ];
     }
 
@@ -52,7 +52,7 @@ class Plugin extends PluginBase
                 'label' => 'Captcha Settings',
                 'description' => 'Manage reCAPTCHA API keys and settings.',
                 'icon' => 'icon-key',
-                'class' => 'nvt\jobforms\Models\Settings',
+                'class' => 'RobertChumley\jobforms\Models\Settings',
                 'keywords' => 'captcha reCAPTCHA google security form',
                 'permissions' => ['nvt.webpageservices.access_settings'],
             ]

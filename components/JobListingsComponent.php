@@ -1,7 +1,7 @@
-<?php namespace nvt\Jobforms\Components;
+<?php namespace RobertChumley\Jobforms\Components;
 
 use Cms\Classes\ComponentBase;
-use nvt\JobForms\Models\JobListing;
+use RobertChumley\JobForms\Models\JobListing;
 
 /**
  * JobListings Component

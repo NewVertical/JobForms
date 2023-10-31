@@ -1,4 +1,4 @@
-<?php namespace nvt\Jobforms\Controllers;
+<?php namespace RobertChumley\Jobforms\Controllers;
 
 use Backend;
 use BackendMenu;
