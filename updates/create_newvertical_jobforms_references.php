@@ -1,4 +1,4 @@
-<?php namespace robertchumley\Jobforms\Updates;
+<?php namespace RobertChumley\Jobforms\Updates;
 
 use Schema;
 use October\Rain\Database\Schema\Blueprint;

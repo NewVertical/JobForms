@@ -1,4 +1,4 @@
-<?php namespace robertchumley\Jobforms\Models;
+<?php namespace RobertChumley\Jobforms\Models;
 
 use Model;
 

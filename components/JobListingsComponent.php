@@ -1,7 +1,7 @@
-<?php namespace robertchumley\Jobforms\Components;
+<?php namespace RobertChumley\Jobforms\Components;
 
 use Cms\Classes\ComponentBase;
-use robertchumley\JobForms\Models\JobListing;
+use RobertChumley\JobForms\Models\JobListing;
 
 /**
  * JobListings Component

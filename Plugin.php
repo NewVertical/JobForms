@@ -1,4 +1,4 @@
-<?php namespace robertchumley\Jobforms;
+<?php namespace RobertChumley\Jobforms;
 
 use System\Classes\PluginBase;
 
@@ -12,7 +12,7 @@ class Plugin extends PluginBase
         return [
           'name' => 'JobForms',
           'description' => 'Provides end-to-end job listing and application submission capabilities',
-          'author' => 'robertchumley',
+          'author' => 'RobertChumley',
             'icon' => 'icon-bar-chart-o'
         ];
     }
@@ -37,8 +37,8 @@ class Plugin extends PluginBase
     public function registerComponents():array
     {
         return [
-            \robertchumley\JobForms\Components\JobListingsComponent::class => 'JobListingsComponent',
-            \robertchumley\JobForms\Components\FormComponent::class => 'FormComponent'
+            \RobertChumley\JobForms\Components\JobListingsComponent::class => 'JobListingsComponent',
+            \RobertChumley\JobForms\Components\FormComponent::class => 'FormComponent'
             ];
     }
 
@@ -52,7 +52,7 @@ class Plugin extends PluginBase
                 'label' => 'Captcha Settings',
                 'description' => 'Manage reCAPTCHA API keys and settings.',
                 'icon' => 'icon-key',
-                'class' => 'robertchumley\jobforms\Models\Settings',
+                'class' => 'RobertChumley\jobforms\Models\Settings',
                 'keywords' => 'captcha reCAPTCHA google security form',
                 'permissions' => ['nvt.webpageservices.access_settings'],
             ]
