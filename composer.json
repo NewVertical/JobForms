@@ -1,5 +1,5 @@
 {
-    "name": "RobertChumley/jobforms-plugin",
+    "name": "nvt/jobforms-plugin",
     "type": "october-plugin",
     "description": "Job application management plugin for October CMS",
     "require": {
