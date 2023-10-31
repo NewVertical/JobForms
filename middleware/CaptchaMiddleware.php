@@ -3,7 +3,7 @@
 use Flash;
 use Closure;
 use ReCaptcha\ReCaptcha;
-use RobertChumley\JobForms\Models\Settings;
+use robertchumley\JobForms\Models\Settings;
 use October\Rain\Exception\AjaxException;
 class CaptchaMiddleware
 {

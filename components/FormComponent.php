@@ -1,11 +1,11 @@
-<?php namespace RobertChumley\JobForms\Components;
+<?php namespace robertchumley\JobForms\Components;
 
 use Cms\Classes\ComponentBase;
-use RobertChumley\Jobforms\Models\JobListing;
-use RobertChumley\Jobforms\Models\Applications;
-use RobertChumley\Jobforms\Models\FormerEmployer;
-use RobertChumley\Jobforms\Models\Reference;
-use RobertChumley\Jobforms\Models\Settings;
+use robertchumley\Jobforms\Models\JobListing;
+use robertchumley\Jobforms\Models\Applications;
+use robertchumley\Jobforms\Models\FormerEmployer;
+use robertchumley\Jobforms\Models\Reference;
+use robertchumley\Jobforms\Models\Settings;
 use Redirect;
 use Request;
 
@@ -34,7 +34,7 @@ class FormComponent extends ComponentBase
         $this->page['employerIndex'] = 0;
         $this->page['referenceIndex'] = 0;
         $this->settings = $this->page['settings'] = Settings::instance();
-        $this->addCss("/plugins/RobertChumley/jobforms/assets/css/default_form.css");
+        $this->addCss("/plugins/robertchumley/jobforms/assets/css/default_form.css");
     }
 
     public function onAddEmployer() {

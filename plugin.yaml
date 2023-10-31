@@ -1,7 +1,7 @@
 plugin:
     name: 'newvertical.jobforms::lang.plugin.name'
     description: 'newvertical.jobforms::lang.plugin.description'
-    author: RobertChumley
+    author: robertchumley
     icon: oc-icon-bar-chart-o
     homepage: ''
 navigation:
