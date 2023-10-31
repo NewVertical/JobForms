@@ -1,0 +1,17 @@
+v1.0.1:
+    - 'Initialize plugin'
+v1.0.2:
+    - 'Created table newvertical_jobforms_joblisting'
+    - create_newvertical_jobforms_joblisting.php
+v1.0.3:
+    - 'Created table newvertical_jobforms_applications'
+    - create_newvertical_jobforms_applications.php
+v1.0.4:
+    - 'Created table newvertical_jobforms_former_employer'
+    - create_newvertical_jobforms_former_employer.php
+v1.0.5:
+    - 'Deleted buggy tables'
+    - delete_broken_tables.php
+v1.0.6:
+    - 'Created table newvertical_jobforms_references'
+    - create_newvertical_jobforms_references.php

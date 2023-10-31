@@ -1,0 +1,11 @@
+name: JobApplications
+modelClass: newvertical\Jobforms\Models\Applications
+form: $/newvertical/jobforms/models/applications/fields.yaml
+defaultRedirect: newvertical/jobforms/jobapplications
+create:
+    redirect: 'newvertical/jobforms/jobapplications/preview/:id'
+    redirectClose: newvertical/jobforms/jobapplications
+update:
+    redirect: 'newvertical/jobforms/jobapplications/preview/:id'
+    redirectClose: newvertical/jobforms/jobapplications
+preview: {  }
